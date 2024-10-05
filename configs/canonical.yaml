@@ -1,0 +1,1989 @@
+matrixleft_tabcapsshift_zxcrow:
+  x: 0
+  'y': 0
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: tabcapsshift_zxcrow
+    name: matrixleft_tabcapsshift_zxcrow
+    zone: &ref_0
+      columns:
+        tabcapsshift: null
+        qazcol: null
+        wsxcol: null
+        edccol: null
+        rfvcol: null
+        tgbcol: null
+      rows:
+        zxcrow: {}
+        asdrow: {}
+        qwerow: {}
+        numberrow: {}
+      name: matrixleft
+    col: &ref_1
+      rows: {}
+      key: {}
+      name: tabcapsshift
+    row: zxcrow
+    bind:
+      - 10
+      - 10
+      - 0
+      - 0
+matrixleft_tabcapsshift_asdrow:
+  x: 0
+  'y': 19
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: tabcapsshift_asdrow
+    name: matrixleft_tabcapsshift_asdrow
+    zone: *ref_0
+    col: *ref_1
+    row: asdrow
+    bind:
+      - 10
+      - 10
+      - 10
+      - 0
+matrixleft_tabcapsshift_qwerow:
+  x: 0
+  'y': 38
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: tabcapsshift_qwerow
+    name: matrixleft_tabcapsshift_qwerow
+    zone: *ref_0
+    col: *ref_1
+    row: qwerow
+    bind:
+      - 10
+      - 10
+      - 10
+      - 0
+matrixleft_tabcapsshift_numberrow:
+  x: 0
+  'y': 57
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: tabcapsshift_numberrow
+    name: matrixleft_tabcapsshift_numberrow
+    zone: *ref_0
+    col: *ref_1
+    row: numberrow
+    bind:
+      - 0
+      - 10
+      - 10
+      - 0
+matrixleft_qazcol_zxcrow:
+  x: 19
+  'y': 0
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: qazcol_zxcrow
+    name: matrixleft_qazcol_zxcrow
+    zone: *ref_0
+    col: &ref_2
+      rows: {}
+      key: {}
+      name: qazcol
+    row: zxcrow
+    bind:
+      - 10
+      - 10
+      - 0
+      - 10
+matrixleft_qazcol_asdrow:
+  x: 19
+  'y': 19
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: qazcol_asdrow
+    name: matrixleft_qazcol_asdrow
+    zone: *ref_0
+    col: *ref_2
+    row: asdrow
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrixleft_qazcol_qwerow:
+  x: 19
+  'y': 38
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: qazcol_qwerow
+    name: matrixleft_qazcol_qwerow
+    zone: *ref_0
+    col: *ref_2
+    row: qwerow
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrixleft_qazcol_numberrow:
+  x: 19
+  'y': 57
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: qazcol_numberrow
+    name: matrixleft_qazcol_numberrow
+    zone: *ref_0
+    col: *ref_2
+    row: numberrow
+    bind:
+      - 0
+      - 10
+      - 10
+      - 10
+matrixleft_wsxcol_zxcrow:
+  x: 38
+  'y': 0
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: wsxcol_zxcrow
+    name: matrixleft_wsxcol_zxcrow
+    zone: *ref_0
+    col: &ref_3
+      rows: {}
+      key: {}
+      name: wsxcol
+    row: zxcrow
+    bind:
+      - 10
+      - 10
+      - 0
+      - 10
+matrixleft_wsxcol_asdrow:
+  x: 38
+  'y': 19
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: wsxcol_asdrow
+    name: matrixleft_wsxcol_asdrow
+    zone: *ref_0
+    col: *ref_3
+    row: asdrow
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrixleft_wsxcol_qwerow:
+  x: 38
+  'y': 38
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: wsxcol_qwerow
+    name: matrixleft_wsxcol_qwerow
+    zone: *ref_0
+    col: *ref_3
+    row: qwerow
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrixleft_wsxcol_numberrow:
+  x: 38
+  'y': 57
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: wsxcol_numberrow
+    name: matrixleft_wsxcol_numberrow
+    zone: *ref_0
+    col: *ref_3
+    row: numberrow
+    bind:
+      - 0
+      - 10
+      - 10
+      - 10
+matrixleft_edccol_zxcrow:
+  x: 57
+  'y': 0
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: edccol_zxcrow
+    name: matrixleft_edccol_zxcrow
+    zone: *ref_0
+    col: &ref_4
+      rows: {}
+      key: {}
+      name: edccol
+    row: zxcrow
+    bind:
+      - 10
+      - 10
+      - 0
+      - 10
+matrixleft_edccol_asdrow:
+  x: 57
+  'y': 19
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: edccol_asdrow
+    name: matrixleft_edccol_asdrow
+    zone: *ref_0
+    col: *ref_4
+    row: asdrow
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrixleft_edccol_qwerow:
+  x: 57
+  'y': 38
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: edccol_qwerow
+    name: matrixleft_edccol_qwerow
+    zone: *ref_0
+    col: *ref_4
+    row: qwerow
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrixleft_edccol_numberrow:
+  x: 57
+  'y': 57
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: edccol_numberrow
+    name: matrixleft_edccol_numberrow
+    zone: *ref_0
+    col: *ref_4
+    row: numberrow
+    bind:
+      - 0
+      - 10
+      - 10
+      - 10
+matrixleft_rfvcol_zxcrow:
+  x: 76
+  'y': 0
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: rfvcol_zxcrow
+    name: matrixleft_rfvcol_zxcrow
+    zone: *ref_0
+    col: &ref_5
+      rows: {}
+      key: {}
+      name: rfvcol
+    row: zxcrow
+    bind:
+      - 10
+      - 10
+      - 0
+      - 10
+matrixleft_rfvcol_asdrow:
+  x: 76
+  'y': 19
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: rfvcol_asdrow
+    name: matrixleft_rfvcol_asdrow
+    zone: *ref_0
+    col: *ref_5
+    row: asdrow
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrixleft_rfvcol_qwerow:
+  x: 76
+  'y': 38
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: rfvcol_qwerow
+    name: matrixleft_rfvcol_qwerow
+    zone: *ref_0
+    col: *ref_5
+    row: qwerow
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrixleft_rfvcol_numberrow:
+  x: 76
+  'y': 57
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: rfvcol_numberrow
+    name: matrixleft_rfvcol_numberrow
+    zone: *ref_0
+    col: *ref_5
+    row: numberrow
+    bind:
+      - 0
+      - 10
+      - 10
+      - 10
+matrixleft_tgbcol_zxcrow:
+  x: 95
+  'y': 0
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: tgbcol_zxcrow
+    name: matrixleft_tgbcol_zxcrow
+    zone: *ref_0
+    col: &ref_6
+      rows: {}
+      key: {}
+      name: tgbcol
+    row: zxcrow
+    bind:
+      - 10
+      - 0
+      - 0
+      - 10
+matrixleft_tgbcol_asdrow:
+  x: 95
+  'y': 19
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: tgbcol_asdrow
+    name: matrixleft_tgbcol_asdrow
+    zone: *ref_0
+    col: *ref_6
+    row: asdrow
+    bind:
+      - 10
+      - 0
+      - 10
+      - 10
+matrixleft_tgbcol_qwerow:
+  x: 95
+  'y': 38
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: tgbcol_qwerow
+    name: matrixleft_tgbcol_qwerow
+    zone: *ref_0
+    col: *ref_6
+    row: qwerow
+    bind:
+      - 10
+      - 0
+      - 10
+      - 10
+matrixleft_tgbcol_numberrow:
+  x: 95
+  'y': 57
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: tgbcol_numberrow
+    name: matrixleft_tgbcol_numberrow
+    zone: *ref_0
+    col: *ref_6
+    row: numberrow
+    bind:
+      - 0
+      - 0
+      - 10
+      - 10
+matrixright_tabcapsshift_zxcrow:
+  x: 300
+  'y': 0
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: tabcapsshift_zxcrow
+    name: matrixright_tabcapsshift_zxcrow
+    zone: &ref_7
+      columns:
+        tabcapsshift: null
+        qazcol: null
+        wsxcol: null
+        edccol: null
+        rfvcol: null
+        tgbcol: null
+      rows:
+        zxcrow: {}
+        asdrow: {}
+        qwerow: {}
+        numberrow: {}
+      name: matrixright
+    col: &ref_8
+      rows: {}
+      key: {}
+      name: tabcapsshift
+    row: zxcrow
+    bind:
+      - 10
+      - 10
+      - 0
+      - 0
+matrixright_tabcapsshift_asdrow:
+  x: 300
+  'y': 19
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: tabcapsshift_asdrow
+    name: matrixright_tabcapsshift_asdrow
+    zone: *ref_7
+    col: *ref_8
+    row: asdrow
+    bind:
+      - 10
+      - 10
+      - 10
+      - 0
+matrixright_tabcapsshift_qwerow:
+  x: 300
+  'y': 38
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: tabcapsshift_qwerow
+    name: matrixright_tabcapsshift_qwerow
+    zone: *ref_7
+    col: *ref_8
+    row: qwerow
+    bind:
+      - 10
+      - 10
+      - 10
+      - 0
+matrixright_tabcapsshift_numberrow:
+  x: 300
+  'y': 57
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: tabcapsshift_numberrow
+    name: matrixright_tabcapsshift_numberrow
+    zone: *ref_7
+    col: *ref_8
+    row: numberrow
+    bind:
+      - 0
+      - 10
+      - 10
+      - 0
+matrixright_qazcol_zxcrow:
+  x: 319
+  'y': 0
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: qazcol_zxcrow
+    name: matrixright_qazcol_zxcrow
+    zone: *ref_7
+    col: &ref_9
+      rows: {}
+      key: {}
+      name: qazcol
+    row: zxcrow
+    bind:
+      - 10
+      - 10
+      - 0
+      - 10
+matrixright_qazcol_asdrow:
+  x: 319
+  'y': 19
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: qazcol_asdrow
+    name: matrixright_qazcol_asdrow
+    zone: *ref_7
+    col: *ref_9
+    row: asdrow
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrixright_qazcol_qwerow:
+  x: 319
+  'y': 38
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: qazcol_qwerow
+    name: matrixright_qazcol_qwerow
+    zone: *ref_7
+    col: *ref_9
+    row: qwerow
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrixright_qazcol_numberrow:
+  x: 319
+  'y': 57
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: qazcol_numberrow
+    name: matrixright_qazcol_numberrow
+    zone: *ref_7
+    col: *ref_9
+    row: numberrow
+    bind:
+      - 0
+      - 10
+      - 10
+      - 10
+matrixright_wsxcol_zxcrow:
+  x: 338
+  'y': 0
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: wsxcol_zxcrow
+    name: matrixright_wsxcol_zxcrow
+    zone: *ref_7
+    col: &ref_10
+      rows: {}
+      key: {}
+      name: wsxcol
+    row: zxcrow
+    bind:
+      - 10
+      - 10
+      - 0
+      - 10
+matrixright_wsxcol_asdrow:
+  x: 338
+  'y': 19
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: wsxcol_asdrow
+    name: matrixright_wsxcol_asdrow
+    zone: *ref_7
+    col: *ref_10
+    row: asdrow
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrixright_wsxcol_qwerow:
+  x: 338
+  'y': 38
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: wsxcol_qwerow
+    name: matrixright_wsxcol_qwerow
+    zone: *ref_7
+    col: *ref_10
+    row: qwerow
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrixright_wsxcol_numberrow:
+  x: 338
+  'y': 57
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: wsxcol_numberrow
+    name: matrixright_wsxcol_numberrow
+    zone: *ref_7
+    col: *ref_10
+    row: numberrow
+    bind:
+      - 0
+      - 10
+      - 10
+      - 10
+matrixright_edccol_zxcrow:
+  x: 357
+  'y': 0
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: edccol_zxcrow
+    name: matrixright_edccol_zxcrow
+    zone: *ref_7
+    col: &ref_11
+      rows: {}
+      key: {}
+      name: edccol
+    row: zxcrow
+    bind:
+      - 10
+      - 10
+      - 0
+      - 10
+matrixright_edccol_asdrow:
+  x: 357
+  'y': 19
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: edccol_asdrow
+    name: matrixright_edccol_asdrow
+    zone: *ref_7
+    col: *ref_11
+    row: asdrow
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrixright_edccol_qwerow:
+  x: 357
+  'y': 38
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: edccol_qwerow
+    name: matrixright_edccol_qwerow
+    zone: *ref_7
+    col: *ref_11
+    row: qwerow
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrixright_edccol_numberrow:
+  x: 357
+  'y': 57
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: edccol_numberrow
+    name: matrixright_edccol_numberrow
+    zone: *ref_7
+    col: *ref_11
+    row: numberrow
+    bind:
+      - 0
+      - 10
+      - 10
+      - 10
+matrixright_rfvcol_zxcrow:
+  x: 376
+  'y': 0
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: rfvcol_zxcrow
+    name: matrixright_rfvcol_zxcrow
+    zone: *ref_7
+    col: &ref_12
+      rows: {}
+      key: {}
+      name: rfvcol
+    row: zxcrow
+    bind:
+      - 10
+      - 10
+      - 0
+      - 10
+matrixright_rfvcol_asdrow:
+  x: 376
+  'y': 19
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: rfvcol_asdrow
+    name: matrixright_rfvcol_asdrow
+    zone: *ref_7
+    col: *ref_12
+    row: asdrow
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrixright_rfvcol_qwerow:
+  x: 376
+  'y': 38
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: rfvcol_qwerow
+    name: matrixright_rfvcol_qwerow
+    zone: *ref_7
+    col: *ref_12
+    row: qwerow
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrixright_rfvcol_numberrow:
+  x: 376
+  'y': 57
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: rfvcol_numberrow
+    name: matrixright_rfvcol_numberrow
+    zone: *ref_7
+    col: *ref_12
+    row: numberrow
+    bind:
+      - 0
+      - 10
+      - 10
+      - 10
+matrixright_tgbcol_zxcrow:
+  x: 395
+  'y': 0
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: tgbcol_zxcrow
+    name: matrixright_tgbcol_zxcrow
+    zone: *ref_7
+    col: &ref_13
+      rows: {}
+      key: {}
+      name: tgbcol
+    row: zxcrow
+    bind:
+      - 10
+      - 0
+      - 0
+      - 10
+matrixright_tgbcol_asdrow:
+  x: 395
+  'y': 19
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: tgbcol_asdrow
+    name: matrixright_tgbcol_asdrow
+    zone: *ref_7
+    col: *ref_13
+    row: asdrow
+    bind:
+      - 10
+      - 0
+      - 10
+      - 10
+matrixright_tgbcol_qwerow:
+  x: 395
+  'y': 38
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: tgbcol_qwerow
+    name: matrixright_tgbcol_qwerow
+    zone: *ref_7
+    col: *ref_13
+    row: qwerow
+    bind:
+      - 10
+      - 0
+      - 10
+      - 10
+matrixright_tgbcol_numberrow:
+  x: 395
+  'y': 57
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: tgbcol_numberrow
+    name: matrixright_tgbcol_numberrow
+    zone: *ref_7
+    col: *ref_13
+    row: numberrow
+    bind:
+      - 0
+      - 0
+      - 10
+      - 10
+functionKeysleft_esc_escaperow:
+  x: 0
+  'y': 81
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: esc_escaperow
+    name: functionKeysleft_esc_escaperow
+    zone: &ref_14
+      columns:
+        esc: null
+        f1: null
+        f2: null
+        f3: null
+        f4: null
+        f5: null
+      rows:
+        escaperow: {}
+      name: functionKeysleft
+    col:
+      rows: {}
+      key: {}
+      name: esc
+    row: escaperow
+    bind:
+      - 0
+      - 10
+      - 0
+      - 0
+functionKeysleft_f1_escaperow:
+  x: 19
+  'y': 81
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: f1_escaperow
+    name: functionKeysleft_f1_escaperow
+    zone: *ref_14
+    col:
+      rows: {}
+      key: {}
+      name: f1
+    row: escaperow
+    bind:
+      - 0
+      - 10
+      - 0
+      - 10
+functionKeysleft_f2_escaperow:
+  x: 38
+  'y': 81
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: f2_escaperow
+    name: functionKeysleft_f2_escaperow
+    zone: *ref_14
+    col:
+      rows: {}
+      key: {}
+      name: f2
+    row: escaperow
+    bind:
+      - 0
+      - 10
+      - 0
+      - 10
+functionKeysleft_f3_escaperow:
+  x: 57
+  'y': 81
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: f3_escaperow
+    name: functionKeysleft_f3_escaperow
+    zone: *ref_14
+    col:
+      rows: {}
+      key: {}
+      name: f3
+    row: escaperow
+    bind:
+      - 0
+      - 10
+      - 0
+      - 10
+functionKeysleft_f4_escaperow:
+  x: 76
+  'y': 81
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: f4_escaperow
+    name: functionKeysleft_f4_escaperow
+    zone: *ref_14
+    col:
+      rows: {}
+      key: {}
+      name: f4
+    row: escaperow
+    bind:
+      - 0
+      - 10
+      - 0
+      - 10
+functionKeysleft_f5_escaperow:
+  x: 95
+  'y': 81
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: f5_escaperow
+    name: functionKeysleft_f5_escaperow
+    zone: *ref_14
+    col:
+      rows: {}
+      key: {}
+      name: f5
+    row: escaperow
+    bind:
+      - 0
+      - 0
+      - 0
+      - 10
+ThumbKeys:
+  x: 0
+  'y': -20
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: default_default
+    name: ThumbKeys
+    zone:
+      columns:
+        default: &ref_15
+          rows: {}
+          key: {}
+          name: default
+      name: ThumbKeys
+    col: *ref_15
+    row: default
+    bind:
+      - 0
+      - 0
+      - 0
+      - 0
+functionKeysRight_f6_one:
+  x: 300
+  'y': 81
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: f6_one
+    name: functionKeysRight_f6_one
+    zone: &ref_16
+      columns:
+        f6: null
+        f7: null
+      rows:
+        one: {}
+      name: functionKeysRight
+    col:
+      rows: {}
+      key: {}
+      name: f6
+    row: one
+    bind:
+      - 0
+      - 10
+      - 0
+      - 0
+functionKeysRight_f7_one:
+  x: 319
+  'y': 81
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: f7_one
+    name: functionKeysRight_f7_one
+    zone: *ref_16
+    col:
+      rows: {}
+      key: {}
+      name: f7
+    row: one
+    bind:
+      - 0
+      - 0
+      - 0
+      - 10

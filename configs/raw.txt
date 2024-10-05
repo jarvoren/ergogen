@@ -1,0 +1,226 @@
+units:
+  os: 300 #opositeside
+  escSpacing: 11
+  keyoutlinespacing: 15
+points:
+  zones:
+    matrixleft:
+      columns:
+        1qazcol:
+        2wsxcol:
+        3edccol:
+        4rfvcol:
+        5tgbcol:
+      rows:
+        zxcrow:
+          asym: source
+        asdrow:
+          asym: source
+        qwerow:
+          asym: source
+        numberrow:
+          asym: source
+    EscTabCapsShiftColumn:
+      anchor:
+        ref: matrixleft_1qazcol_zxcrow
+        shift: [-30,0]
+      columns:
+        tabcapsshift:
+      rows:
+        tylda:
+          asym: source
+        tab:
+          asym: source
+        caps:
+          asym: source
+        shift:
+          asym: source
+    matrixright:
+      anchor:
+        ref: EscTabCapsShiftColumn_tabcapsshift_tylda
+        shift: [os,0]
+      columns:
+        yhncol:
+        ujmcol:
+        ikcol:
+        olcol:
+        pcol:
+        minuscol:
+        pluscol:
+      rows:
+        nmrow:
+          asym: source
+        hjkrow:
+          asym: source
+        yuirow:
+          asym: source
+        numberrow:
+          asym: source
+    functionKeysleft:
+      anchor:
+        ref: EscTabCapsShiftColumn_tabcapsshift_shift
+        shift: [0,24]
+      columns:
+        esc:
+        f1:
+          key.shift: [escSpacing]
+        f2:
+          key.shift: [escSpacing]
+        f3:
+         key.shift: [escSpacing]
+        f4:
+         key.shift: [escSpacing]
+        f5:
+         key.shift: [escSpacing]
+      rows:
+        escaperow:
+          asym: source
+    ThumbKeys:
+      anchor:
+        ref: EscTabCapsShiftColumn_tabcapsshift_tylda
+        shift: [0,-21]
+      columns:
+        ctrl:
+        winkey:
+          key:
+            #width: 1.5*u
+            shift: [escSpacing]
+        alt:
+          key:
+            #width: 1.5*u
+            shift: [escSpacing+escSpacing]
+        space:
+          key:
+            shift: [escSpacing+3*escSpacing]
+        ctrl2:
+          key:
+            splay: -30
+            shift: [escSpacing+4*escSpacing]
+        thumbkey:
+          key:
+            shift: [escSpacing+5*escSpacing]
+      rows:
+       thumbrow:
+    functionKeysRight:
+      anchor:
+        ref: functionKeysleft_esc_escaperow
+        shift: [os,0]
+      columns:
+        f6:
+        f7:
+        f8:
+        f9:
+        f10:
+        f11:
+        f12:
+      rows:
+        one:
+          asym: source
+    arrowcluster:
+      anchor:
+        ref: matrixright_pluscol_nmrow
+        shift: [22,-u]
+      rows:
+        down:
+          asym: source
+        up:
+          asym: source
+        clear:
+          asym: source
+        del:
+          asym: source
+        ins:
+          asym: source
+        macro:
+          asym: source
+          
+      columns:
+        left:
+          rows:
+            up:
+              skip: true
+            clear:
+              skip: true
+        updown:
+          rows:
+            clear:
+              skip: true
+        right:
+          rows:
+            up:
+              skip: true
+            clear:
+              skip: true
+  mirror:
+    ref: ThumbKeys_ctrl_thumbrow
+    distance: os+100
+outlines:
+  raw:
+    - what: rectangle
+      where: true
+      size: [u,u]
+    - what: polygon
+      operation: stack
+      points:
+        - ref: functionKeysleft_esc_escaperow
+          shift: [-u-10,u+10]
+        - ref: functionKeysleft_f5_escaperow
+          shift: [u+60,u+10]
+        - ref: matrixleft_5tgbcol_asdrow
+          shift: [u+60,u]      
+        - ref: ThumbKeys_thumbkey_thumbrow
+          shift: [40,0]
+        - ref: matrixleft_5tgbcol_asdrow
+          shift: [0,-141]
+        - ref: ThumbKeys_ctrl_thumbrow
+          shift: [-u-10,-100]
+        - ref: ThumbKeys_ctrl_thumbrow
+          shift: [-u-10,0]
+    - what: polygon
+      operation: stack
+      points:
+        - ref: functionKeysRight_f6_one
+          shift: [-u-65,u+10]
+        - ref: arrowcluster_right_macro
+          shift: [u+10,u+15]
+        - ref: arrowcluster_right_down
+          shift: [u+10,-u]
+        - ref: arrowcluster_right_down
+          shift: [u,-100]
+        - ref: matrixright_yhncol_nmrow
+          shift: [-u,-120]
+        - ref: matrixright_yhncol_nmrow
+          shift: [-u-65,-80]
+  pcbplan:
+    - what: polygon
+      operation: stack
+      points:
+        - ref: functionKeysleft_esc_escaperow
+          shift: [-u,u]
+        - ref: functionKeysleft_f5_escaperow
+          shift: [u+50,u]
+        - ref: matrixleft_5tgbcol_asdrow
+          shift: [u+50,u]      
+        - ref: ThumbKeys_thumbkey_thumbrow
+          shift: [28,0]
+        - ref: matrixleft_5tgbcol_asdrow
+          shift: [0,-110]
+        - ref: ThumbKeys_ctrl_thumbrow
+          shift: [-u,-u]
+        - ref: ThumbKeys_ctrl_thumbrow
+          shift: [-u,0]
+    - what: polygon
+      operation: stack
+      points:
+        - ref: functionKeysRight_f6_one
+          shift: [-u-55,u]
+        - ref: arrowcluster_right_macro
+          shift: [u,u+5]
+        - ref: arrowcluster_right_down
+          shift: [u,-u]
+        - ref: arrowcluster_right_down
+          shift: [u,-30]
+        - ref: matrixright_yhncol_nmrow
+          shift: [-u,-100]
+        - ref: matrixright_yhncol_nmrow
+          shift: [-u-55,-80]
