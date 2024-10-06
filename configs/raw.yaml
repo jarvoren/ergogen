@@ -250,14 +250,22 @@ pcbs:
           shift: [0, -5]
       reset:
         what: button
-	  nice_nano:
+        where:
+          ref: functionKeysleft_esc_escaperow
+          shift: [8*u+20,0]
+          rotate: 0
+        params: 
+          side: B
+          from: GND
+          to: RST 
+      nice_nano:
         what: nice_nano
         params:
           orientation: up
         where:
-          ref: matrix_sixth_num
-          shift: [-9, -1.5]
-          rotate: -180.0
+          ref: functionKeysleft_esc_escaperow
+          shift: [8*u,1]
+          rotate: -90
 
 
   right:
