@@ -7,159 +7,270 @@ points:
     matrixleft:
       columns:
         1qazcol:
+            key:
+                column_net: P029
         2wsxcol:
+            key:
+                column_net: P002
         3edccol:
+            key:
+                column_net: P115     
         4rfvcol:
+            key:
+                column_net: P113
         5tgbcol:
+            key:
+                column_net: P111
       rows:
         zxcrow:
+          row_net: P022
           asym: source
         asdrow:
-          asym: source
+            row_net: P020
+            asym: source
         qwerow:
-          asym: source
+            row_net: P017
+            asym: source
         numberrow:
-          asym: source
+            row_net: P008
+            asym: source
     EscTabCapsShiftColumn:
       anchor:
         ref: matrixleft_1qazcol_zxcrow
         shift: [-30,0]
       columns:
         tabcapsshift:
+            key:
+                column_net: P031
       rows:
         tylda:
-          asym: source
+            row_net: P008
+            asym: source
         tab:
-          asym: source
+            row_net: P017
+            asym: source
         caps:
-          asym: source
+            row_net: P020
+            asym: source
         shift:
-          asym: source
+            row_net: P022
+            asym: source
     matrixright:
       anchor:
         ref: EscTabCapsShiftColumn_tabcapsshift_tylda
         shift: [os,0]
       columns:
         yhncol:
+            key:
+                column_net: P006
         ujmcol:
+            key:
+                column_net: P008
         ikcol:
+            key:
+                column_net: P017
         olcol:
+           key:
+                column_net: P020
         pcol:
+            key:
+                column_net: P022
         minuscol:
+            key:
+                column_net: P024
         pluscol:
+            key:
+                column_net: P100
       rows:
         nmrow:
-          asym: source
+            row_net: P113
+            asym: source
         hjkrow:
-          asym: source
+            row_net: P115
+            asym: source
         yuirow:
-          asym: source
+            row_net: P002
+            asym: source
         numberrow:
-          asym: source
+            row_net: P029
+            asym: source
     functionKeysleft:
       anchor:
         ref: EscTabCapsShiftColumn_tabcapsshift_shift
         shift: [0,24]
       columns:
         esc:
+            key.column_net: P031
         f1:
-          key.shift: [escSpacing]
+            key.column_net: P029
+            key.shift: [escSpacing]
         f2:
-          key.shift: [escSpacing]
+            key.column_net: P002
+            key.shift: [escSpacing]
         f3:
-         key.shift: [escSpacing]
+            key.column_net: P115
+            key.shift: [escSpacing]
         f4:
-         key.shift: [escSpacing]
+            key.column_net: P113
+            key.shift: [escSpacing]
         f5:
-         key.shift: [escSpacing]
+            key.column_net: P111
+            key.shift: [escSpacing]
       rows:
         escaperow:
-          asym: source
+            row_net: P006
+            asym: source
     ThumbKeys:
-      anchor:
-        ref: EscTabCapsShiftColumn_tabcapsshift_tylda
-        shift: [0,-21]
-      columns:
-        ctrl:
-        winkey:
-          key:
-            #width: 1.5*u
-            shift: [escSpacing]
-        alt:
-          key:
-            #width: 1.5*u
-            shift: [escSpacing+escSpacing]
-        space:
-          key:
-            shift: [escSpacing+3*escSpacing]
-        ctrl2:
-          key:
-            splay: -30
-            shift: [escSpacing+4*escSpacing]
-        thumbkey:
-          key:
-            shift: [escSpacing+5*escSpacing]
-      rows:
-       thumbrow:
+        anchor:
+            ref: EscTabCapsShiftColumn_tabcapsshift_tylda
+            shift: [0,-21]
+        columns:
+            ctrl:
+                key.column_net: P031
+            winkey:
+                key.column_net: P029
+                key:
+                    #width: 1.5*u
+                    shift: [escSpacing]
+            alt:
+                key.column_net: P002
+                key:
+                #width: 1.5*u
+                    shift: [escSpacing+escSpacing]
+            space:
+                key.column_net: P115
+                key:
+                    shift: [escSpacing+3*escSpacing]
+            ctrl2:
+                key.column_net: P113
+                key:
+                    splay: -30
+                    shift: [escSpacing+4*escSpacing]
+            thumbkey:
+                key.column_net: P111
+                key:
+                    shift: [escSpacing+5*escSpacing]
+        rows:
+            thumbrow:
+                row_net: P006
+########################################
+########################################
+#THUMB KEYS FOR MIRROR MAPPING
+#########################################
+#    ThumbKeys:
+#      anchor:
+#        ref: EscTabCapsShiftColumn_tabcapsshift_tylda
+#        shift: [0,-21]
+#      columns:
+#        ctrl:
+#            key.column_net: P100
+#        winkey:
+#            key.column_net: P024
+#            key:
+#                #width: 1.5*u
+#                shift: [escSpacing]
+#        alt:
+#            key.column_net: P022
+#            key:
+#            #width: 1.5*u
+#                shift: [escSpacing+escSpacing]
+#        space:
+#            key.column_net: P017
+#            key:
+#                shift: [escSpacing+3*escSpacing]
+#        ctrl2:
+#            key.column_net: P008
+#            key:
+#                splay: -30
+#                shift: [escSpacing+4*escSpacing]
+#        thumbkey:
+#            key.column_net: P006
+#            key:
+#                shift: [escSpacing+5*escSpacing]
+#      rows:
+#        thumbrow:
+#            row_net: P111
+#########################################
+#########################################
+#########################################
     functionKeysRight:
       anchor:
         ref: functionKeysleft_esc_escaperow
         shift: [os,0]
       columns:
         f6:
+            key.column_net: P029
         f7:
+            key.column_net: P029
         f8:
+            key.column_net: P029
         f9:
+            key.column_net: P029
         f10:
+            key.column_net: P029
         f11:
+            key.column_net: P029
         f12:
+            key.column_net: P029
       rows:
         one:
-          asym: source
+            row_net: P113
+            asym: source
     arrowcluster:
       anchor:
         ref: matrixright_pluscol_nmrow
         shift: [22,-u]
       rows:
         down:
-          asym: source
+            row_net: P113
+            asym: source
         up:
-          asym: source
+            row_net: P113
+            asym: source
         clear:
-          asym: source
+            row_net: P113
+            asym: source
         del:
-          asym: source
+            row_net: P113
+            asym: source
         ins:
-          asym: source
+            row_net: P113
+            asym: source
         macro:
-          asym: source
+            row_net: P113
+            asym: source
           
       columns:
         left:
-          rows:
-            up:
-              skip: true
-            clear:
-              skip: true
+            key.column_net: P029
+            rows:
+              up:
+                skip: true
+              clear:
+                skip: true
         updown:
-          rows:
-            clear:
-              skip: true
+            key.column_net: P029
+            rows:
+              clear:
+                skip: true
         right:
-          rows:
-            up:
-              skip: true
-            clear:
-              skip: true
+            key.column_net: P029
+            rows:
+              up:
+                skip: true
+              clear:
+                skip: true
   mirror:
     ref: ThumbKeys_ctrl_thumbrow
     distance: os+100
 outlines:
   raw:
     - what: rectangle
+      fillet: 2
       where: true
       size: [u,u]
     - what: polygon
+      fillet: 2
       operation: stack
       points:
         - ref: functionKeysleft_esc_escaperow
@@ -178,6 +289,7 @@ outlines:
           shift: [-u-10,0]
     - what: polygon
       operation: stack
+      fillet: 2
       points:
         - ref: functionKeysRight_f6_one
           shift: [-u-65,u+10]
@@ -194,6 +306,7 @@ outlines:
   pcbplanleft:
     - what: polygon
       operation: stack
+      fillet: 2
       points:
         - ref: functionKeysleft_esc_escaperow
           shift: [-u,u]
@@ -212,6 +325,7 @@ outlines:
   pcbplanright:
     - what: polygon
       operation: stack
+      fillet: 2
       points:
         - ref: functionKeysRight_f6_one
           shift: [-u-55,u]
@@ -252,7 +366,7 @@ pcbs:
         what: button
         where:
           ref: functionKeysleft_esc_escaperow
-          shift: [8*u+20,0]
+          shift: [8*u+18,0]
           rotate: 0
         params: 
           side: B
@@ -266,7 +380,16 @@ pcbs:
           ref: functionKeysleft_esc_escaperow
           shift: [8*u,1]
           rotate: -90
-
+      battery_switch:
+        what: slider
+        where:
+            ref: functionKeysleft_esc_escaperow
+            shift: [8*u+21,10]
+            rotate: -90
+        params:
+            side: B
+            from: pos
+            to: RAW
 
   right:
     outlines:
