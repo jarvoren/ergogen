@@ -44,16 +44,16 @@ points:
                 column_net: P031
       rows:
         tylda:
-            row_net: P008
+            row_net: P022
             asym: source
         tab:
-            row_net: P017
-            asym: source
-        caps:
             row_net: P020
             asym: source
+        caps:
+            row_net: P017
+            asym: source
         shift:
-            row_net: P022
+            row_net: P008
             asym: source
     matrixright:
       anchor:
@@ -120,6 +120,10 @@ points:
         escaperow:
             row_net: P006
             asym: source
+################################################################################
+################################################################################
+#THUMB KEYS FOR LEFT SIDE MAPPING
+################################################################################        
     ThumbKeys:
         anchor:
             ref: EscTabCapsShiftColumn_tabcapsshift_tylda
@@ -127,36 +131,43 @@ points:
         columns:
             ctrl:
                 key.column_net: P031
+                key.mirror.column_net: P100
             winkey:
                 key.column_net: P029
+                key.mirror.column_net: P024
                 key:
                     #width: 1.5*u
                     shift: [escSpacing]
             alt:
                 key.column_net: P002
+                key.mirror.column_net: P022
                 key:
                 #width: 1.5*u
                     shift: [escSpacing+escSpacing]
             space:
                 key.column_net: P115
+                key.mirror.column_net: P017
                 key:
                     shift: [escSpacing+3*escSpacing]
             ctrl2:
                 key.column_net: P113
+                key.mirror.column_net: P008
                 key:
                     splay: -30
                     shift: [escSpacing+4*escSpacing]
             thumbkey:
                 key.column_net: P111
+                key.mirror.column_net: P006
                 key:
                     shift: [escSpacing+5*escSpacing]
         rows:
             thumbrow:
-                row_net: P006
-########################################
-########################################
-#THUMB KEYS FOR MIRROR MAPPING
-#########################################
+                row_net: P024
+                mirror.row_net: P111
+################################################################################
+################################################################################
+#THUMB KEYS FOR MIRROR MAPPING UNCOMMENT PROPER ONE
+################################################################################
 #    ThumbKeys:
 #      anchor:
 #        ref: EscTabCapsShiftColumn_tabcapsshift_tylda
@@ -190,31 +201,31 @@ points:
 #      rows:
 #        thumbrow:
 #            row_net: P111
-#########################################
-#########################################
-#########################################
+################################################################################
+################################################################################
+################################################################################
     functionKeysRight:
       anchor:
         ref: functionKeysleft_esc_escaperow
         shift: [os,0]
       columns:
         f6:
-            key.column_net: P029
+            key.column_net: P006
         f7:
-            key.column_net: P029
+            key.column_net: P008
         f8:
-            key.column_net: P029
+            key.column_net: P017
         f9:
-            key.column_net: P029
+            key.column_net: P020
         f10:
-            key.column_net: P029
+            key.column_net: P022
         f11:
-            key.column_net: P029
+            key.column_net: P024
         f12:
-            key.column_net: P029
+            key.column_net: P100
       rows:
         one:
-            row_net: P113
+            row_net: P031
             asym: source
     arrowcluster:
       anchor:
@@ -222,39 +233,39 @@ points:
         shift: [22,-u]
       rows:
         down:
-            row_net: P113
+            row_net: P111
             asym: source
         up:
             row_net: P113
             asym: source
         clear:
-            row_net: P113
+            row_net: P115
             asym: source
         del:
-            row_net: P113
+            row_net: P002
             asym: source
         ins:
-            row_net: P113
+            row_net: P029
             asym: source
         macro:
-            row_net: P113
+            row_net: P031
             asym: source
           
       columns:
         left:
-            key.column_net: P029
+            key.column_net: P011
             rows:
               up:
                 skip: true
               clear:
                 skip: true
         updown:
-            key.column_net: P029
+            key.column_net: P104
             rows:
               clear:
                 skip: true
         right:
-            key.column_net: P029
+            key.column_net: P106
             rows:
               up:
                 skip: true
@@ -361,7 +372,8 @@ pcbs:
           from: "{{colrow}}"
           to: "{{row_net}}"
         adjust:
-          shift: [0, -5]
+          shift: [4, -7]
+          rotate: -180
       reset:
         what: button
         where:
@@ -393,4 +405,4 @@ pcbs:
 
   right:
     outlines:
-      - outline: pcbplanleft
+      - outline: pcbplanright
