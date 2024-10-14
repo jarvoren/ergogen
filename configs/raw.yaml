@@ -309,7 +309,7 @@ outlines:
         - ref: arrowcluster_right_down
           shift: [u+10,-u]
         - ref: arrowcluster_right_down
-          shift: [u,-100]
+          shift: [u+10,-100]
         - ref: matrixright_yhncol_nmrow
           shift: [-u,-120]
         - ref: matrixright_yhncol_nmrow
@@ -402,7 +402,58 @@ pcbs:
             side: B
             from: pos
             to: RAW
-
   right:
     outlines:
       - outline: pcbplanright
+        anchor:
+          shift: [100, -100]
+    footprints:
+      mxsoldered:
+        what: mx
+        where: true
+        params:
+          keycaps: true
+          reverse: false
+          from: "{{column_net}}"
+          to: "{{colrow}}"
+      diode:
+        what: diode
+        where: true
+        params:
+          from: "{{colrow}}"
+          to: "{{row_net}}"
+        adjust:
+          shift: [4, -7]
+          rotate: -180
+      reset:
+        what: button
+        where:
+          ref: functionKeysleft_esc_escaperow
+          shift: [8*u+18,0]
+          rotate: 0
+        params: 
+          side: B
+          from: GND
+          to: RST 
+      nice_nano:
+        what: nice_nano
+        params:
+          orientation: up
+        where:
+          ref: functionKeysleft_esc_escaperow
+          shift: [8*u,1]
+          rotate: -90
+      battery_switch:
+        what: slider
+        where:
+            ref: functionKeysleft_esc_escaperow
+            shift: [8*u+21,10]
+            rotate: -90
+        params:
+            side: B
+            from: pos
+            to: RAW
+cases:
+  top:
+    - name: raw
+      extrude: 1
