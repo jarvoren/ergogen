@@ -7,4 +7,4 @@ Will improve when i regain the will to live after this one.
 Zmk firmware : 
 https://github.com/jarvoren/zmk-config-monster
 
-![alt text](https://github.com/jarvoren/ergogen/monster.jpg?raw=true)
+![alt text](https://github.com/jarvoren/ergogen/blob/develop/monster.jpg?raw=true)
